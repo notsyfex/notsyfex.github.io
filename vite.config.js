@@ -3,9 +3,9 @@ import react from '@vitejs/plugin-react'
 import tailwindcss from '@tailwindcss/vite'
 
 // Zet hier de NAAM van jouw GitHub repository!
-const basePath = '/portfolio/';
+const basePath = 'notsyfex.github.io/portfolio/';
 
 export default defineConfig({
   plugins: [tailwindcss(), react()],
-  base: notsyfex.github.io,
+  base: basePath,
 });
